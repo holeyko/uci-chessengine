@@ -30,7 +30,7 @@ public class GoOperationParameters {
         if (moveTime != null) {
             result.append("movetime ").append(moveTime).append(" ");
         }
-        if (infinite) {
+        if (infinite != null && infinite) {
             result.append("infinite ").append(" ");
         }
 
