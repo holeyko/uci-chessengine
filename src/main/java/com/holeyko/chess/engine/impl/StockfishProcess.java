@@ -30,6 +30,7 @@ public class StockfishProcess extends ProcessChessEngineUCI implements ChessEngi
                     executableFile.toString(),
                     (line) -> line.startsWith("Unknown command") || line.startsWith("Unexpected token")
             );
+            executeOperation("");
     }
 
     @Override
